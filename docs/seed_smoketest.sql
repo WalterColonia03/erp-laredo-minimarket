@@ -19,8 +19,8 @@ VALUES
 (3,'P003','7501000003','Pan de Molde','PANADERIA',5.90,3.20,30,5,'ACTIVO');
 
 -- Proveedor de prueba
-INSERT IGNORE INTO proveedores (id, ruc, razon_social, contacto, telefono, email)
-VALUES (1,'20100000001','Distribuidora Lima SAC','Pedro Rios','01-1234567','ventas@distlima.com');
+INSERT IGNORE INTO proveedores (id, ruc, razon_social, telefono, email)
+VALUES (1,'20100000001','Distribuidora Lima SAC','01-1234567','ventas@distlima.com');
 
 -- Empleado sin usuario de sistema (FR-048: son entidades independientes)
 INSERT IGNORE INTO empleados (id, usuario_id, nombres, apellidos, dni, cargo, fecha_ingreso, remuneracion_base, estado)
